@@ -18,7 +18,7 @@
 
 		tag_input		= el.children(".tagit-new").children(".tagit-input");
 
-      // Add default tags for the input field
+      // Shows tags which the user has entered during previous sessions 
       if (options.startingTags != null){
         $.each(options.startingTags, function(key, tag){
           create_choice(tag);
